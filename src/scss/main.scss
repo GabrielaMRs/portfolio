@@ -1,0 +1,22 @@
+@use './colors';
+@use './header';
+@use './reset';
+
+
+body{
+  background-color: #E8E8E8;
+  color: #1E1F24;
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,h2,h3{
+  color: #325456;
+}
+

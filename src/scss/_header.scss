@@ -1,0 +1,34 @@
+@use './colors';
+@use './reset';
+
+.header{
+  background-color: #2B3333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  z-index: 1000;
+  ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 50px;
+    align-items: center;
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .logo{
+    padding-left: 50px;
+  }
+  button{
+    margin-left: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
