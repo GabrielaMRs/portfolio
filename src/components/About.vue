@@ -6,7 +6,7 @@
         My name is Gabriela, I'm 27 years old, raised and born in São Paulo,
         Brazil. I graduated in 2018 as a bachelor's in physics in UNESP - São
         Paulo State University. On my graduation, I was a São Paulo Reserarch
-        Foundation (FAPESP) scholarship holder In august of 2018 I went to Brno
+        Foundation (FAPESP) scholarship holder. In august of 2018 I went to Brno
         in Czech Republic with Research Interships Aborad (BEPE), a scholarship
         provided by FAPESP. My journey with development started at 2021 when I
         joined ChatGuru as a Customer Success. I always have been curious about
@@ -18,7 +18,7 @@
       </p>
     </div>
     <div class="photo">
-      <img src="../assets/IMG_20231223_202534.jpg" alt="Photo of Gabriela." />
+      <img src="../assets/photo.jpg" alt="Photo of Gabriela." />
     </div>
   </div>
 </template>
