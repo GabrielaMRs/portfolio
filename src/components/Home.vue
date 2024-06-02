@@ -24,16 +24,5 @@ export default {
 </script>
 
 <style lang="scss">
-#home{
-  padding: 250px 50px 0 200px;
-  min-height: 100vh;
-  color: #44464E;
-  h1{
-    color: #325456;
-    margin: 0;
-  }
-  svg{
-    vertical-align: bottom;
-  }
-}
+@import url('../scss/_home.scss');
 </style>

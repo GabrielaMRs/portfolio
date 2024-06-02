@@ -39,6 +39,7 @@ export default {
   .text {
     width: 60%;
     p{
+      margin-top: 20px;
       line-height: 25px;
       text-align: justify;
     }

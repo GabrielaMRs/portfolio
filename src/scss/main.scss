@@ -1,6 +1,7 @@
 @use './colors';
 @use './header';
 @use './reset';
+@use './projects';
 
 
 body{
@@ -20,3 +21,6 @@ h1,h2,h3{
   color: #325456;
 }
 
+h1, h2, h3, h4, span, p{
+  margin: 0;
+}

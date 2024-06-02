@@ -1,0 +1,55 @@
+@use './colors';
+@use './reset';
+
+#projects {
+  padding: 50px 200px 0 200px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    .card-project{
+      background-color: #dbe0e0;
+      padding: 20px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 400px;
+      img{
+        width: 400px;
+      }
+      p{
+        width: 400px;
+        text-align: justify;
+        height: 25%;
+      }
+    }
+    .projects-links {
+      display: flex;
+      gap: 10px;
+      padding: 10px;
+      justify-content: space-between;
+      .used{
+        display: flex;
+        gap: 10px;
+        .pill{
+          background-color: #94B7B8;
+          color: #1E1F24;
+          font-size: 14px;
+          padding: 5px 10px;
+          border-radius: 20px;
+        }
+      }
+      .links{
+        display: flex;
+        gap: 10px;
+      }
+    }
+  }
+}

@@ -76,14 +76,14 @@
         <p class="project-description">
           This also a challenge made by FrontEndMentor. The objective was test my ability to create dropdown navigation menus, create a mobile design, providing some layout challenges.
         </p>
-        <img src="../assets/project-advice.png" alt="" />
+        <img src="../assets/project-snap.png" alt="" />
         <div class="projects-links">
           <div class="used">
             <div class="pill">VueJS</div>
             <div class="pill">Sass</div>
           </div>
           <div class="links">
-            <a target="_blank" href="https://gabrielamrs.github.io/advice-generator-app-main/" alt="Link para o site do projeto.">
+            <a target="_blank" href="https://gabrielamrs.github.io/snap-page" alt="Link para o site do projeto.">
             <svg
               width="20px"
               height="20px"
@@ -144,56 +144,12 @@
 </template>
 
 <script>
+
 export default {
-  name: "MyProjects",
+  name: "MyProjects"
 };
 </script>
 
 <style lang="scss">
-#projects {
-  padding: 0 200px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    width: 100%;
-    .card-project{
-      background-color: #dbe0e0;
-      padding: 20px;
-      border-radius: 20px;
-      img{
-        width: 400px;
-      }
-      p{
-        width: 400px;
-      }
-    }
-    .projects-links {
-      display: flex;
-      gap: 10px;
-      padding-top: 10px;
-      justify-content: space-between;
-      .used{
-        display: flex;
-        gap: 10px;
-        .pill{
-          background-color: #94B7B8;
-          color: #1E1F24;
-          font-size: 14px;
-          padding: 5px 10px;
-          border-radius: 20px;
-        }
-      }
-      .links{
-        display: flex;
-        gap: 10px;
-      }
-    }
-  }
-  
-}
+@import url('../scss/_projects.scss');
 </style>
