@@ -8,11 +8,14 @@
     </svg>
     <h1>I'm Gabriela Rodrigues.</h1>
     <span class="description">First of all: welcome to my portfolio! Glad to see you here. </span>
-    <div class="">
+    <div class="front-skills">
       <svg fill="#325456" width="24px" height="24px" viewBox="-6.5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <path d="M8.469-1.156h2.25v29.813h-2.25v-29.813z"></path>
       </svg>
-      FrontEnd Developer: Vue.js HTML SASS JavaScript 
+      FrontEnd Developer
+      <svg fill="#325456" width="24px" height="24px" viewBox="-6.5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8.469-1.156h2.25v29.813h-2.25v-29.813z"></path>
+      </svg> Vue.js HTML SASS JavaScript 
     </div>
   </div>
 </template>

@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "vue-cli-service build && gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -44,5 +45,10 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "postcss": {
+    "plugins": [
+      "autoprefixer"
+    ]
+  }
 }
