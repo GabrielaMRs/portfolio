@@ -2,7 +2,7 @@
 @use './reset';
 
 #projects {
-  padding: 50px 200px 0 200px;
+  padding: 50px 30px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,6 +28,8 @@
         width: 400px;
         text-align: justify;
         height: 25%;
+        font-size: 16px;
+        line-height: 24px;
       }
     }
     .projects-links {

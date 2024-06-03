@@ -4,8 +4,32 @@
   color: #44464E;
   h1{
     color: #325456;
+    padding: 20px 0;
   }
   svg{
     vertical-align: bottom;
+  }
+
+  .buttons{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    button, a{
+      padding: 10px;
+      cursor: pointer;
+      background-color: #325456;
+      border: 1px solid #325456;
+      color: #FFFFFF;
+      font-size: 20px;
+      transition: all 0.5s;
+      &:hover{
+        background: transparent;
+        color: #325456;
+        transition: all 0.5s;
+      }
+    }
+    a{
+      text-decoration: none;
+    }
   }
 }

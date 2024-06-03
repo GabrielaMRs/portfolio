@@ -3,18 +3,14 @@
     <div class="text">
       <h2>About Me</h2>
       <p>
-        My name is Gabriela, I'm 27 years old, raised and born in São Paulo,
-        Brazil. I graduated in 2018 as a bachelor's in physics in UNESP - São
-        Paulo State University. On my graduation, I was a São Paulo Reserarch
-        Foundation (FAPESP) scholarship holder. In august of 2018 I went to Brno
-        in Czech Republic with Research Interships Aborad (BEPE), a scholarship
-        provided by FAPESP. My journey with development started at 2021 when I
-        joined ChatGuru as a Customer Success. I always have been curious about
-        programation and started to study WEB development. An oportunity
-        appeared to become a FrontEnd Developer and I went for it. I stayed at
-        ChatGuru until april 2024 and now I'm looking for new opportunities. I
-        started studying accessibility for websites and I'm foccused on pixel
-        perfect.
+        Hello, I'm Gabriela, a 27-year-old from São Paulo, Brazil. I graduated
+        in Physics from São Paulo State University in 2018, with the support of
+        a scholarship from the São Paulo Research Foundation (FAPESP). After an
+        enriching research internship in Brno, Czech Republic, I joined ChatGuru
+        in 2021 as a Customer Success member. Intrigued by programming, I
+        transitioned to become a Frontend Developer. Now, as I seek new
+        opportunities, I'm focused on perfecting pixel-perfect designs and
+        enhancing website accessibility.
       </p>
     </div>
     <div class="photo">
@@ -38,13 +34,13 @@ export default {
   align-items: center;
   .text {
     width: 60%;
-    p{
+    p {
       margin-top: 20px;
       line-height: 25px;
       text-align: justify;
     }
   }
-  h2{
+  h2 {
     color: #325456;
   }
   .photo {
